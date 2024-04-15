@@ -19,6 +19,9 @@
 		D3B7D4EE2BC63C8000643CBF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D4ED2BC63C8000643CBF /* NetworkManager.swift */; };
 		D3B7D4F02BC63DFB00643CBF /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D4EF2BC63DFB00643CBF /* APError.swift */; };
 		D3B7D4F22BCACA7800643CBF /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D4F12BCACA7800643CBF /* AppetizerListViewModel.swift */; };
+		D3B7D4F42BCB82B900643CBF /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D4F32BCB82B900643CBF /* Alert.swift */; };
+		D3B7D4F62BCCBEB500643CBF /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D4F52BCCBEB500643CBF /* LoadingView.swift */; };
+		D3B7D4F82BCCBFF400643CBF /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D4F72BCCBFF400643CBF /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		D3B7D4ED2BC63C8000643CBF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		D3B7D4EF2BC63DFB00643CBF /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		D3B7D4F12BCACA7800643CBF /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		D3B7D4F32BCB82B900643CBF /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		D3B7D4F52BCCBEB500643CBF /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		D3B7D4F72BCCBFF400643CBF /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 				D3B7D4ED2BC63C8000643CBF /* NetworkManager.swift */,
 				D3B7D4EF2BC63DFB00643CBF /* APError.swift */,
 				D3B7D4F12BCACA7800643CBF /* AppetizerListViewModel.swift */,
+				D3B7D4F32BCB82B900643CBF /* Alert.swift */,
+				D3B7D4F52BCCBEB500643CBF /* LoadingView.swift */,
+				D3B7D4F72BCCBFF400643CBF /* Color+Ext.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -165,10 +174,13 @@
 				D3B7D4F02BC63DFB00643CBF /* APError.swift in Sources */,
 				D3B7D4EC2BC63B3E00643CBF /* AppetizerListCell.swift in Sources */,
 				D3B7D4F22BCACA7800643CBF /* AppetizerListViewModel.swift in Sources */,
+				D3B7D4F82BCCBFF400643CBF /* Color+Ext.swift in Sources */,
 				D3B7D4E62BC4DE1300643CBF /* AccountView.swift in Sources */,
+				D3B7D4F62BCCBEB500643CBF /* LoadingView.swift in Sources */,
 				D3B7D4D82BC4DD7F00643CBF /* AppetizerTabView.swift in Sources */,
 				D3B7D4EE2BC63C8000643CBF /* NetworkManager.swift in Sources */,
 				D3B7D4D62BC4DD7F00643CBF /* AppetizersApp.swift in Sources */,
+				D3B7D4F42BCB82B900643CBF /* Alert.swift in Sources */,
 				D3B7D4E42BC4DDF900643CBF /* AppetizerListView.swift in Sources */,
 				D3B7D4E82BC4DE2000643CBF /* OrderView.swift in Sources */,
 			);

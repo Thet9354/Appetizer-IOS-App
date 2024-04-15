@@ -9,7 +9,7 @@ import Foundation
 
 enum APError: Error {
     case invalidURL
-    case invalidresponse
+    case invalidResponse
     case invalidData
     case unableToComplete
 }
