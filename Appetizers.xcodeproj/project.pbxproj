@@ -22,6 +22,10 @@
 		D3B7D4F42BCB82B900643CBF /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D4F32BCB82B900643CBF /* Alert.swift */; };
 		D3B7D4F62BCCBEB500643CBF /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D4F52BCCBEB500643CBF /* LoadingView.swift */; };
 		D3B7D4F82BCCBFF400643CBF /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D4F72BCCBFF400643CBF /* Color+Ext.swift */; };
+		D3B7D4FA2BCCE04900643CBF /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D4F92BCCE04900643CBF /* RemoteImage.swift */; };
+		D3B7D5092BCD395400643CBF /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D5082BCD395400643CBF /* AppetizerDetailView.swift */; };
+		D3B7D50C2BCEBC5F00643CBF /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D50B2BCEBC5F00643CBF /* APButton.swift */; };
+		D3B7D50E2BCEBCE300643CBF /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D50D2BCEBCE300643CBF /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,10 @@
 		D3B7D4F32BCB82B900643CBF /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		D3B7D4F52BCCBEB500643CBF /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		D3B7D4F72BCCBFF400643CBF /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		D3B7D4F92BCCE04900643CBF /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		D3B7D5082BCD395400643CBF /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		D3B7D50B2BCEBC5F00643CBF /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
+		D3B7D50D2BCEBCE300643CBF /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,21 +81,13 @@
 		D3B7D4D42BC4DD7F00643CBF /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				D3B7D5032BCD384200643CBF /* Model */,
+				D3B7D4FF2BCD37F300643CBF /* Utilities */,
+				D3B7D5042BCD386000643CBF /* Views */,
+				D3B7D4FB2BCD378200643CBF /* Screens */,
 				D3B7D4D52BC4DD7F00643CBF /* AppetizersApp.swift */,
-				D3B7D4D72BC4DD7F00643CBF /* AppetizerTabView.swift */,
 				D3B7D4D92BC4DD8000643CBF /* Assets.xcassets */,
 				D3B7D4DB2BC4DD8000643CBF /* Preview Content */,
-				D3B7D4E32BC4DDF900643CBF /* AppetizerListView.swift */,
-				D3B7D4E52BC4DE1300643CBF /* AccountView.swift */,
-				D3B7D4E72BC4DE2000643CBF /* OrderView.swift */,
-				D3B7D4E92BC4EABA00643CBF /* Appetizer.swift */,
-				D3B7D4EB2BC63B3E00643CBF /* AppetizerListCell.swift */,
-				D3B7D4ED2BC63C8000643CBF /* NetworkManager.swift */,
-				D3B7D4EF2BC63DFB00643CBF /* APError.swift */,
-				D3B7D4F12BCACA7800643CBF /* AppetizerListViewModel.swift */,
-				D3B7D4F32BCB82B900643CBF /* Alert.swift */,
-				D3B7D4F52BCCBEB500643CBF /* LoadingView.swift */,
-				D3B7D4F72BCCBFF400643CBF /* Color+Ext.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -98,6 +98,130 @@
 				D3B7D4DC2BC4DD8000643CBF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3B7D4FB2BCD378200643CBF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D4D72BC4DD7F00643CBF /* AppetizerTabView.swift */,
+				D3B7D4FC2BCD378C00643CBF /* AppetizerListView */,
+				D3B7D4FD2BCD379600643CBF /* AccountView */,
+				D3B7D4FE2BCD37A100643CBF /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D3B7D4FC2BCD378C00643CBF /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D4F12BCACA7800643CBF /* AppetizerListViewModel.swift */,
+				D3B7D4E32BC4DDF900643CBF /* AppetizerListView.swift */,
+				D3B7D5082BCD395400643CBF /* AppetizerDetailView.swift */,
+			);
+			path = AppetizerListView;
+			sourceTree = "<group>";
+		};
+		D3B7D4FD2BCD379600643CBF /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D4E52BC4DE1300643CBF /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		D3B7D4FE2BCD37A100643CBF /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D4E72BC4DE2000643CBF /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		D3B7D4FF2BCD37F300643CBF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D5022BCD381200643CBF /* Alert */,
+				D3B7D5012BCD380000643CBF /* Extensions */,
+				D3B7D5002BCD37F900643CBF /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D3B7D5002BCD37F900643CBF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D4ED2BC63C8000643CBF /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D3B7D5012BCD380000643CBF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D4F72BCCBFF400643CBF /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D3B7D5022BCD381200643CBF /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D4EF2BC63DFB00643CBF /* APError.swift */,
+				D3B7D4F32BCB82B900643CBF /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		D3B7D5032BCD384200643CBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D4E92BC4EABA00643CBF /* Appetizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3B7D5042BCD386000643CBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D50A2BCEBC4E00643CBF /* Buttons */,
+				D3B7D5072BCD388200643CBF /* Image */,
+				D3B7D5062BCD387C00643CBF /* Cells */,
+				D3B7D5052BCD386E00643CBF /* UIKit Component */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3B7D5052BCD386E00643CBF /* UIKit Component */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D4F52BCCBEB500643CBF /* LoadingView.swift */,
+			);
+			path = "UIKit Component";
+			sourceTree = "<group>";
+		};
+		D3B7D5062BCD387C00643CBF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D4EB2BC63B3E00643CBF /* AppetizerListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D3B7D5072BCD388200643CBF /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D4F92BCCE04900643CBF /* RemoteImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		D3B7D50A2BCEBC4E00643CBF /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7D50B2BCEBC5F00643CBF /* APButton.swift */,
+				D3B7D50D2BCEBCE300643CBF /* XDismissButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,13 +296,17 @@
 			files = (
 				D3B7D4EA2BC4EABA00643CBF /* Appetizer.swift in Sources */,
 				D3B7D4F02BC63DFB00643CBF /* APError.swift in Sources */,
+				D3B7D50E2BCEBCE300643CBF /* XDismissButton.swift in Sources */,
 				D3B7D4EC2BC63B3E00643CBF /* AppetizerListCell.swift in Sources */,
 				D3B7D4F22BCACA7800643CBF /* AppetizerListViewModel.swift in Sources */,
 				D3B7D4F82BCCBFF400643CBF /* Color+Ext.swift in Sources */,
 				D3B7D4E62BC4DE1300643CBF /* AccountView.swift in Sources */,
+				D3B7D50C2BCEBC5F00643CBF /* APButton.swift in Sources */,
 				D3B7D4F62BCCBEB500643CBF /* LoadingView.swift in Sources */,
 				D3B7D4D82BC4DD7F00643CBF /* AppetizerTabView.swift in Sources */,
 				D3B7D4EE2BC63C8000643CBF /* NetworkManager.swift in Sources */,
+				D3B7D4FA2BCCE04900643CBF /* RemoteImage.swift in Sources */,
+				D3B7D5092BCD395400643CBF /* AppetizerDetailView.swift in Sources */,
 				D3B7D4D62BC4DD7F00643CBF /* AppetizersApp.swift in Sources */,
 				D3B7D4F42BCB82B900643CBF /* Alert.swift in Sources */,
 				D3B7D4E42BC4DDF900643CBF /* AppetizerListView.swift in Sources */,
