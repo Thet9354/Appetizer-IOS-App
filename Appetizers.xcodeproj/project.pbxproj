@@ -30,6 +30,7 @@
 		D3B7D5122BCFC51C00643CBF /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D5112BCFC51C00643CBF /* String+Ext.swift */; };
 		D3B7D5142BCFCFFE00643CBF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D5132BCFCFFE00643CBF /* User.swift */; };
 		D3B7D5172BD0226900643CBF /* EmptyStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D5162BD0226900643CBF /* EmptyStates.swift */; };
+		D3B7D5192BD0CA1F00643CBF /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7D5182BD0CA1F00643CBF /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		D3B7D5112BCFC51C00643CBF /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		D3B7D5132BCFCFFE00643CBF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D3B7D5162BD0226900643CBF /* EmptyStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStates.swift; sourceTree = "<group>"; };
+		D3B7D5182BD0CA1F00643CBF /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			children = (
 				D3B7D4E92BC4EABA00643CBF /* Appetizer.swift */,
 				D3B7D5132BCFCFFE00643CBF /* User.swift */,
+				D3B7D5182BD0CA1F00643CBF /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				D3B7D4F02BC63DFB00643CBF /* APError.swift in Sources */,
 				D3B7D50E2BCEBCE300643CBF /* XDismissButton.swift in Sources */,
 				D3B7D4EC2BC63B3E00643CBF /* AppetizerListCell.swift in Sources */,
+				D3B7D5192BD0CA1F00643CBF /* Order.swift in Sources */,
 				D3B7D5102BCFC29900643CBF /* AccountViewModel.swift in Sources */,
 				D3B7D4F22BCACA7800643CBF /* AppetizerListViewModel.swift in Sources */,
 				D3B7D4F82BCCBFF400643CBF /* Color+Ext.swift in Sources */,
