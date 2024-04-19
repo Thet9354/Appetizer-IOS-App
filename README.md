@@ -1,4 +1,4 @@
-# Appetizer
+# Appetizer IOS App
 
 Welcome to **Appetizer**, your go-to app for exploring delicious food items, managing your orders, and personalizing your account details. This iOS SwiftUI project simplifies the process of browsing menus, viewing nutrition information, placing orders, and managing your account settings.
 
